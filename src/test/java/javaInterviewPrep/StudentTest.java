@@ -27,6 +27,14 @@ public class StudentTest {
         students.add(s9);
 
         System.out.println("Student List are : "+students);
+        System.out.println("********************************************* Using Java Streams ************************");
+        students.stream().forEach(e-> System.out.println(e));
+        System.out.println("********************************************* Marks more than 80 ************************");
+        students.stream().filter(e-> e.getMarks()>80)
+                .forEach(e->System.out.println(e));
+        System.out.println("********************************************* Highest Marks ************************");
+        int hm = students.stream().map(e-> e.getMarks()).max(Integer::compare).get();
+        System.out.println(hm);
 
 
 
