@@ -36,6 +36,9 @@ public class StudentTest {
         int hm = students.stream().map(e-> e.getMarks()).max(Integer::compare).get();
         System.out.println(hm);
 
+        students.stream().filter(e-> e.getMarks() == hm)
+                .forEach(e-> System.out.println(e));
+
 
 
 
