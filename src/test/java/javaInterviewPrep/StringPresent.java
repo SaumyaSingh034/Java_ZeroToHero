@@ -8,6 +8,10 @@ public class StringPresent {
         System.out.println(isSubstring("saumya singh"," "));
         System.out.println(isSubstring("saumya singh","rahul"));
         System.out.println(isSubstring("saumya singh","h"));
+        System.out.println(isSubstring("saumya singh","&"));
+        System.out.println(isSubstring("Tryaksh","Singh"));
+        System.out.println(isSubstring("Tryaksh","ya"));
+        System.out.println(isSubstring("saumya singh","h"));
     }
 
     private static boolean isSubstring(String main, String sub) {
