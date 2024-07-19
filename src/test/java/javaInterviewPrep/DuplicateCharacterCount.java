@@ -9,15 +9,18 @@ public class DuplicateCharacterCount {
     }
 
     private static void countDuplicateCharacter(String s) {
-        int count = 0;
+
         char[] ch = s.toCharArray();
         for(int i=0;i< ch.length;i++){
+            int count = 0;
             for(int j=1;j< ch.length;j++)
             {
                 if(ch[i] == ch[j])
                     count++;
-                System.out.println("word "+ ch[i]+" count--> "+count);
+
             }
+            if(count>=2)
+                System.out.println("word "+ ch[i]+" count--> "+count);
 
 
         }
