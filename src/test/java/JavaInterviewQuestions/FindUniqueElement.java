@@ -7,7 +7,8 @@ import java.util.Set;
 public class FindUniqueElement {
 
     public static void main(String[] args){
-        int[] arr = {4,5,5,7,6,6,7,4,9,5};
+        int[] arr1 = {4,5,5,7,6,6,7,4,9,5};
+        int[] arr = {1,1,2,2,3,4,5,5,6,6};
         Map<Integer, Integer> dataMap = new HashMap<>();
 
         for(int i=0;i< arr.length;i++){
