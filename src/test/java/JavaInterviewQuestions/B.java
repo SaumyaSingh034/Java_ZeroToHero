@@ -6,9 +6,17 @@ public class B extends A{
         System.out.println("---- Inside B --------");
         displayData(x, y);
     }
+    public void print(){
+        System.out.println("Hello Class B");
+    }
 
     public static void main(String[] args){
+//        B b = new B();
+//        b.display(5,8);
+        A a = new A();
+        a.displayData(5,6,7);
+        a.displayData(7,7);
         B b = new B();
-        b.display(5,8);
+        b.print();
     }
 }
