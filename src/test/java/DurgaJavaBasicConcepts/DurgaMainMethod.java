@@ -1,4 +1,4 @@
-package basicJavaInterview;
+package DurgaJavaBasicConcepts;
 
 public class DurgaMainMethod {
 
