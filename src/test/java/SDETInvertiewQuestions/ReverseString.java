@@ -9,7 +9,7 @@ public class ReverseString {
         }
         System.out.println(rev);
 
-        StringBuilder strB = new StringBuilder("Hello Word");
+        StringBuilder strB = new StringBuilder("RahulShettyAcademy");
         System.out.println(strB.reverse());
     }
 }
