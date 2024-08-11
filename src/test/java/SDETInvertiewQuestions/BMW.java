@@ -16,7 +16,7 @@ public class BMW {
         manufacture = manu;
     }
 
-    public void getOwner(String o){
+    public void setOwner(String o){
         owner = o;
     }
 }
