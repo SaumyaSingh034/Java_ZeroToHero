@@ -7,7 +7,7 @@ import java.util.List;
 public class SecondHighestElementInArray {
 
     public static void main(String[] args){
-        Integer a[] = {1,2,5,6,3,2};
+        Integer a[] = {1,2,5,6,3,2,5,6};
         Integer b[] = {44,66,99,77,33,22,55};
         System.out.println(getSecondHighestElement(a));
         System.out.println(getSecondHighestElement(b));
