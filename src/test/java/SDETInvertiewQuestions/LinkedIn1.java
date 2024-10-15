@@ -5,6 +5,7 @@ public class LinkedIn1 {
         String s1 = "Go to Joho";
         //output = G$ t$$ J$$$h$$$$$
         System.out.println(printStringWithGivenFormat(s1,"$","o"));
+        System.out.println(customString(s1,"$","o"));
         System.out.println(test(s1));
     }
 
@@ -57,6 +58,23 @@ public class LinkedIn1 {
                 }
             } else{
                 sb.append(s1.charAt(i));
+            }
+        }
+        return sb.toString();
+        }
+
+
+        private static String customString(String str, String special, String oldChar){
+        int length = 0;
+        StringBuffer sb = new StringBuffer();
+        for(int i=0;i<str.length();i++){
+            if(Character.toString(str.charAt(i)).equalsIgnoreCase(oldChar)){
+                length++;
+                for(int j=0;j<length;j++){
+                    sb.append(special);
+                }
+            }else{
+                sb.append(str.charAt(i));
             }
         }
         return sb.toString();
