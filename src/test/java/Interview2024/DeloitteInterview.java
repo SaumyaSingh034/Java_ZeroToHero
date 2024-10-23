@@ -3,7 +3,7 @@ package Interview2024;
 public class DeloitteInterview {
     public static void main(String[] args){
         String str1 = "2";
-        String str2 = "A";
+        String str2 = "InterviewPrep.A";
        System.out.println( printAppropriateResult(str1,str2));
        System.out.println( printAppropriateResult("3","5"));
        System.out.println( printAppropriateResult("Saumya ","Rahul"));

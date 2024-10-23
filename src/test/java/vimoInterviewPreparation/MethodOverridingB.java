@@ -2,7 +2,7 @@ package vimoInterviewPreparation;
 
 public class MethodOverridingB extends MethodOverridingA{
     public void display(){
-        System.out.println("Display-B")
+        System.out.println("Display-InterviewPrep.B")
         ;
     }
     public static void main(String[] args){

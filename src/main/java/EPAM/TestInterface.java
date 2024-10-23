@@ -8,6 +8,6 @@ public class TestInterface implements HashMapInterface{
 
     @Override
     public void displayTest() {
-        System.out.println("Test");
+        System.out.println("InterviewPrep.Test");
     }
 }

@@ -7,7 +7,7 @@ public class PalindromeString {
         ps.StringPalindrome("121");
         ps.StringPalindrome("madam");
         ps.StringPalindrome("");
-        ps.StringPalindrome("A");
+        ps.StringPalindrome("InterviewPrep.A");
         ps.StringPalindrome("Ana");
         ps.StringPalindrome("Saumya");
     }
