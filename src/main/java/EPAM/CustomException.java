@@ -3,7 +3,7 @@ package EPAM;
 import javax.imageio.IIOException;
 import java.io.UncheckedIOException;
 
-public class CustomException  {
+public class CustomException extends Exception {
 
   /*  public CustomException(){
         super();
@@ -15,5 +15,11 @@ public class CustomException  {
 
     public CustomException(String message, Throwable cause){
         super(message, cause);*/
+
+    public CustomException(String message){
+        super(message);
+    }
+
+
     }
 
