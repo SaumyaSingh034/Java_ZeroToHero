@@ -1,6 +1,8 @@
 package AdvanceJava;
 
-public class User implements Comparable<User> {
+import java.util.Comparator;
+
+public class User implements Comparable<User> , Comparator<User> {
     private String name;
     private Integer age;
 
@@ -29,5 +31,10 @@ public class User implements Comparable<User> {
     @Override
     public int compareTo(User o) {
         return this.getAge().compareTo(o.getAge());
+    }
+
+    @Override
+    public int compare(User o1, User o2) {
+        return o2.getAge().compareTo(o1.getAge());
     }
 }
