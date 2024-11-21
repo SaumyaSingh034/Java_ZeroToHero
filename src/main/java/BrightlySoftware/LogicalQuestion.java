@@ -1,4 +1,6 @@
-public class Interview {
+package BrightlySoftware;
+
+public class LogicalQuestion {
     static int i = 3;
     public static void main(String[] args){
         System.out.println(i+",");

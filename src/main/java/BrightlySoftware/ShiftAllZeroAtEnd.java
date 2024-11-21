@@ -1,6 +1,8 @@
+package BrightlySoftware;
+
 import java.util.Arrays;
 
-public class Test {
+public class ShiftAllZeroAtEnd {
 
     public static void main(String[] args){
         int arr[] = {1,0,3,0,1,0,5};
@@ -9,7 +11,6 @@ public class Test {
 
     private static void moveZeroAtEnd(int[] arr) {
         int j = 0;
-        int len = arr.length-1;
         for(int i=0;i< arr.length;i++){
             if(arr[i]!=0){
                 arr[j] = arr[i];

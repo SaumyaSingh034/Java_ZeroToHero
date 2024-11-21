@@ -20,7 +20,7 @@ public class CallByRef {
     }
 
     public static void test(CallByRef t1){
-        System.out.println("Under InterviewPrep.Test Method");
+        System.out.println("Under InterviewPrep.BrightlySoftware.Test Method");
         System.out.println(t1.name);
         System.out.println(t1.age);
 
