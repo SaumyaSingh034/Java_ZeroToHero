@@ -10,7 +10,7 @@ public class Test2 {
     }
 
     private static String manipulateStringandReverse(String x) {
-        System.out.println(x.matches("//d")); //34909
+        //System.out.println(x.matches("//d")); //34909
         char[] ch = x.toCharArray();
         StringBuffer sb = new StringBuffer();
 
@@ -20,9 +20,13 @@ public class Test2 {
 
             if (Character.isAlphabetic(c)) {
                 sb.append(c);
+            } else if (Character.isDigit(c)) {
+                sb.append(" ");
+
             }
         }
-        sb.reverse();
+        System.out.println(sb);
+        //sb.reverse();
         int alphaIndex = 0;
         for (char c : ch) {
             if (Character.isAlphabetic(c)) {
