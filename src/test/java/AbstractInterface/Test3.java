@@ -5,11 +5,12 @@ import java.util.Arrays;
 public class Test3 {
     public static void main(String[] args){
         int[] array1 = {2,4,7,3};
-        int[] array2 = {5,6,5,8};
+        int[] array2 = {5,6,7,9};
 
         /*7, 10, 12, 7
         8, 0, 12, 7
         8, 1, 2, 7*/
+        //       8,1,5,2
         printSumOfArray(array1, array2);
 
     }
