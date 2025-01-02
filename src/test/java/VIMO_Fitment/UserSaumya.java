@@ -1,4 +1,4 @@
-import AdvanceJava.User;
+package VIMO_Fitment;
 
 public class UserSaumya implements Comparable<UserSaumya>{
 

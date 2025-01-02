@@ -1,3 +1,5 @@
+package VIMO_Fitment;
+
 import org.openxmlformats.schemas.drawingml.x2006.main.STSystemColorVal;
 
 @FunctionalInterface
