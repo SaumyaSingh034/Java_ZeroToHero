@@ -1,8 +1,8 @@
 package Comparator;
 
 public class Student implements Comparable<Student>{
-    private int age;
-    private String name;
+    public int age;
+    public String name;
 
     public Student(int age, String name){
         this.age = age;

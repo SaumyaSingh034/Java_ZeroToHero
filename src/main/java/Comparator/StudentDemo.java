@@ -2,9 +2,13 @@ package Comparator;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class StudentDemo {
+
+    Comparator<Student> comparator = ( i,  j) ->  i.age > j.age?1:-1;
+
     Integer data;
     public static void main(String[] args){
         List<Student> student = new ArrayList<>();
