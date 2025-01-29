@@ -28,7 +28,16 @@ public class MinVal {
 
         }
         System.out.println(min1.getKey()+" -----> "+min1.getValue());
+        //String name;
+        Map.Entry<String, Integer> minimum = null;
+        for(Map.Entry<String, Integer> d : data.entrySet()){
+            if(minimum == null || d.getValue()<minimum.getValue()){
+                minimum = d;
+            }
+        }
+        System.out.println(minimum.getKey()+ "-----> "+minimum.getValue());
 
 
     }
+
 }
