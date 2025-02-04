@@ -2,6 +2,7 @@ package IMP_InterviewQuestions;
 
 public class Question1 {
     public static void main(String[] args){
+        // VIMO FITMENT
         /*For given string check if the string contains
         >> vowels and the length of string is greater than 5 print success
         >> if the length of string is less than 5 print failure
